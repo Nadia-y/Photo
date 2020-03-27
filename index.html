@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -15,20 +16,20 @@
             <div class="header__home">
                 <div class="logo">
                     <img class="logo__img" src="assets/camera.svg" alt="logo">
-                    <h3 class="logo__title">PhotoGuide</h3>
+                    <h4 class="logo__title">PhotoGuide</h4>
                     <div class="border"></div>
                     <p class="logo__text">Stop the time - leave the memories</p>
                 </div>
                     <nav class="menu">
                         <ul>
                             <li class="menu__item"> 
-                                <a href="#"> Цены и услуги</a>
+                                <a href="#services"> Цены и услуги</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#">  Контакты</a> 
+                                <a href="#contacts">  Контакты</a> 
                             </li>
                             <li class="menu__item">
-                                <a href="#">  Отзывы</a>
+                                <a href="#reviews">  Отзывы</a>
                             </li>
                             <li class="menu__item">
                                 <a href="#galeria">  Галерея</a>
@@ -38,7 +39,9 @@
                 </div>
                 <div class="photosession">
                     <h1>Фотосессия в Турции</h1>
-                    <p class="offer">по цене 7000 рублей за 100 фотографий <br> и 10 одноминутных видео для <span class="offer__item"> <a href="https://www.instagram.com/" target="_blanc">Instagram</a> </span>    <a href="https://www.instagram.com/" target="_blanc">  <img class="insta" src="assets/insta.svg" alt="instagram">  </a> </p>
+                    <p class="offer">по цене 7000 рублей за 100 фотографий <br> и 10 одноминутных видео для
+                        <span class="offer__item"> <a href="https://www.instagram.com/" target="_blanc">Instagram</a> </span>    
+                        <a href="https://www.instagram.com/" target="_blanc">  <img class="insta" src="assets/insta.svg" alt="instagram">  </a> </p>
                     <button class="photosession__btn">Связаться с фотографом</button>
                 </div>
                 <div class="result">
@@ -64,8 +67,9 @@
             <div class="blur2"></div>
         </div>
     </header>
+
     <section class="galeria" id="galeria">
-        <h4 class="galeria__title">Галерея</h4>
+        <h5 class="galeria__title">Галерея</h5>
         <h2 class="galeria__name">Мы работаем во всех стилях</h2>
         <div class="galeria__form">
             <button class="btn-m" data-action="to-1">Семейная съемка</button>
@@ -114,21 +118,225 @@
             </div>
           </div>     
     </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h5 class="galeria__title">Услуги и цены</h5>
+            <h2 class="services__name">Сколько стоят наши услуги</h2>
+            <div class="services__plan">
+                <div class="pkt">
+                    <div class="plan">
+                        <h6 class="pkt__name"> Пакет </h6>
+                        <h3 class="pkt__title">Лёгкий</h3>
+                    </div>
+                    <ul class="pkt__list">
+                        <li class="pkt__list_item">Съёмка и обработка <br>60 фотографий</li>
+                        <li class="pkt__list_item">USB-флешка с фото</li>
+                        <li class="pkt__list_item">10 одноминутных видео для <br>Instagram</li>
+                        <li class="pkt__list_item">Аренда платья на фотосессию</li>
+                        <li class="pkt__list_item">Аренда квадрокоптера</li>
+                        <li class="pkt__list_item">Доставка в живописные места <br> Анталии</li>
+                    </ul>
+                    <div class="price__order">
+                        <p class="price">7 000 ₽</p>
+                        <button class="order"> Заказать </button>
+                    </div>
+                </div>
+            
+                <div class="pkt">
+                    <div class="plan">
+                        <h6 class="pkt__name"> Пакет </h6>
+                        <h3 class="pkt__title">Премиум</h3>
+                    </div>
+                    <ul class="pkt__list">
+                        <li class="pkt__list_item">Съёмка и обработка <br>60 фотографий</li>
+                        <li class="pkt__list_item">USB-флешка с фото</li>
+                        <li class="pkt__list_item">10 одноминутных видео для <br>Instagram</li>
+                        <li class="pkt__list_item">Аренда платья на фотосессию</li>
+                        <li class="pkt__list_item">Аренда квадрокоптера</li>
+                        <li class="pkt__list_item">Доставка в живописные места <br> Анталии</li>
+                    </ul>
+                    <div class="price__order">
+                        <p class="price">12 000 ₽</p>
+                        <button class="order"> Заказать </button>
+                    </div>
+                </div>
+                <div class="pkt">
+                    <div class="plan">
+                        <h6 class="pkt__name"> Пакет </h6>
+                        <h3 class="pkt__title">Стандарт</h3>
+                    </div>
+                    <ul class="pkt__list">
+                        <li class="pkt__list_item">Съёмка и обработка <br>60 фотографий</li>
+                        <li class="pkt__list_item">USB-флешка с фото</li>
+                        <li class="pkt__list_item">10 одноминутных видео для <br>Instagram</li>
+                        <li class="pkt__list_item">Аренда платья на фотосессию</li>
+                        <li class="pkt__list_item">Аренда квадрокоптера</li>
+                        <li class="pkt__list_item">Доставка в живописные места <br> Анталии</li>
+                    </ul>
+                    <div class="price__order">
+                        <p class="price">9 000 ₽</p>
+                        <button class="order"> Заказать </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <!-- <div class="video__item ">
+            <iframe src="https://www.youtube.com/embed/jOPCdrRsa-U" class="embed-responsive-item" height="668" width="760" allowfullscreen controls></iframe>
+
+        </div> -->
+        <div class="video__item">
+            <a href="#">
+            <img class="media" src="assets/video.png"></a>
+            <button class="media_icon" ><img src="assets/icon.svg"></button>
+        </div>
+        <div class="video__description" >
+            <h5 class="video__title">Наша команда</h5>
+            <h3 class="video__ad">Посмотрите 2-минутное видео о нас, чтобы лучше понять, как проходят наши фотосессии</h3>
+            <p class="video__text"> Делаем так, чтобы воспоминания об отдыхе остались у вас на всю жизнь. Для этого заранее продумываем сюжет и подбираем интересные геолокации . 
+            <span class="target"> Наша цель </span>- создавать атмосферные фотографии, которые передают сюжет и рассказывают историю . </p>
+            <p class="video__text">Ладим с детьми, знаем уникальные места вблизи Анталии,
+            помогаем позировать, умеем смешить и ловить мгновения. На наших фотографиях вы будете выглядеть естественно красиво, даже если это ваша первая съемка. 
+            А чтобы убедиться, что вам с нами будет комфортно, посмотрите 2-минутное видео</p>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews__wrap">
+                <h5 class="galeria__title">отзывы</h5>
+                <h3 class="reviews__feedback">Узнайте, что пишут о нас наши клиенты <br> в своих  <span class="reviews__feedback-instagram"> 
+                <a href="https://www.instagram.com/" target="_blanc">Instagram</a> </span> <a href="https://www.instagram.com/" target="_blanc">  
+                <img class="insta" src="assets/insta.svg" alt="instagram">  </a> аккаунтах</h2>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" ></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="reviews__card">
+                        <div class="photo">
+                            <img class="photo-card d-block" src="assets/photo-rev1.png">   
+                        </div>
+                        <div class="reviews__description">
+                            <h6 class="reviews__description-title">
+                                Просто восторг!
+                            </h6>
+                            <p class="reviews__description-text">
+                                Анталия, берег средиземного моря! Получила массу удовольствия от фотосессии с ребятами из photiguide.biz 
+                                Спасибо! Получила массу удовольствия от фотосессии!Всех подруг отправляю к вам! 
+                            </p>
+                            <p class="reviews__description-name">
+                                <a href="https://www.instagram.com/" target="_blanc"> <img src="assets/littlinsta.svg"> @Masha_Sharapova</a> 
+                            </p> 
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="reviews__card">
+                        <div class="photo">
+                            <img class="photo-card" src="assets/rev2.png">   
+                        </div>
+                        <div class="reviews__description">
+                            <h6 class="reviews__description-title">
+                            Великолепно!
+                            </h6>
+                            <p class="reviews__description-text">
+                                Анталия, берег средиземного моря! Получила массу удовольствия от фотосессии с ребятами из photiguide.biz 
+                                Спасибо! Получила массу удовольствия от фотосессии!Всех подруг отправляю к вам! 
+                            </p>
+                            <p class="reviews__description-name">
+                                <a href="https://www.instagram.com/" target="_blanc"> <img src="assets/littlinsta.svg"> @Anna_Fedorova</a> 
+                            </p> 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id ="contacts">
+        <div class="container">
+            <h5 class="galeria__title">Контакты</h5>
+            <h3 class="contacts__text">Свяжитесь с нами удобным вам способом, чтобы договориться о встрече-знакомстве и обсудить детали</h3>
+        </div>
+        <div class="contacts__icons">
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="tg fab fa-telegram-plane"></i>
+                        <p class="contacts__name">Telegram</p>
+                    </a>
+            </div>
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="vb fab fa-viber"></i>
+                        <p class="contacts__name">Viber</p>
+                    </a>
+            </div>
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="face fab fa-facebook-f"></i>
+                        <p class="contacts__name">Facebook</p>
+                    </a>
+            </div>
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="inst fab fa-instagram"></i>
+                        <p class="contacts__name">Instagram</p>
+                    </a>
+            </div>
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="wh fab fa-whatsapp"></i>
+                        <p class="contacts__name">whatsapp</p>
+                    </a>
+            </div>
+            <div class="contacts__icons-name">
+                    <a href="#">
+                        <i class="vk fab fa-vk"></i>
+                        <p class="contacts__name">VKOntakte</p>
+                    </a>
+            </div>
+        </div>
+            <h6 class="contacts__title-info">Или оставьте данные и мы перезвоним</h6>
+            <div class="contacts__form"></div>
+            <form class="form">
+                <div>
+                    <input class="form_item" type="text" placeholder="Введите имя" required>
+                    <input class="form_item" type="tel" placeholder="Введите Телефон" required>
+                </div>
+               <div>
+                    <input class="form_item"  type="text" placeholder="Оставьте Комментарий">
+                    <button class="form__but">Отправить заявку</button>
+               </div>
+            </form>
+            <p class="contacts__politic">Пользуясь сайтом photoguide.biz и оставляя заявку Вы соглашаетесь с <span class="politic"> Политикой конфиденциальности </span>нашей компании. 
+                Мы гарантируем, что Ваши данные будут использоваться только для связи с Вами и не будут переданы третьим лицам.</p>
+    </section>
+    <footer>
+        <p class="contacts__rights">2019 © Photoguide.biz. All rights reserved. Бренд упакован <span class="politic" >Digital Butlers.</span></p>
+    </footer>
    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js">    </script>
     <script>
-        $(function () {
+    $(function () {
          
-          $('.btn-m').click(function () {
-            var action = $(this).attr('data-action');
-            if (action.indexOf('to') >= 0) {
-              var action = parseInt(action.substring(5))-1;
-            }
-            $('#carousel').carousel(action);
-          });
+        $('.btn-m').click(function () {
+          var action = $(this).attr('data-action');
+          if (action.indexOf('to') >= 0) {
+            var action = parseInt(action.substring(5))-1;
+          }
+          $('#carousel').carousel(action);
         });
-    </script>
+      });</script>
 </body>
 </html>
